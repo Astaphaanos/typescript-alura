@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "target": "ES2024", //! Para que versão do JS ele deve compilar o TS
+        "outDir": "./dist/js/", //! Para onde deve colocar todos os arquivos que compilar
+        "noEmitOnError": true //! Toda vez que ele identificar um erro, não deva gerar um arquivo JS
+    },
+    "include": [
+        "./src/**/*" //! Procurar os arquivos TS nessa pasta
+    ]
+}
